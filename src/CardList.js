@@ -18,9 +18,10 @@ const CardList = ({robots}) => {
 	// 		{cardArray}
 	// 	</div>
 	// );
-	return (
-		<div>		
+	return (	
+		<div>				
 			{
+				// inside {} is javaScript
 				robots.map((user,i) => {
 					return (
 						<Card 
